@@ -1,0 +1,19 @@
+/*  ========================================== Service Slider style ==========================================  */
+.zip-code img { align-self: center; }
+
+.service-slider__area { position: relative; padding: 50px 0; margin-bottom: 40px; }
+.service-slider__area .slick-initialized .slick-slide { outline: 0; }
+.service-slider__area .slick-slide img { margin: 0 auto; }
+.service-slider__area .slick-dots { display: flex !important; justify-content: center; list-style: none; bottom: 0; margin: 20px 0; }
+.service-slider__area .slick-dots li > button { border-radius: 40px; border: 1px solid #000000; width: 10px; height: 10px; text-align: center; cursor: pointer; padding: 0; color: #000000; font-size: 16px; display: block; line-height: 28px; margin: 0 5px; text-indent: -9999999px; opacity: 0.5; }
+.service-slider__area .slick-dots li > button:hover { border: 1px solid #efc94c; background-color: #efc94c; color: #ffffff; opacity: 1; }
+.service-slider__area .slick-dots li.slick-active button { border: 1px solid #efc94c; background-color: #efc94c; color: #ffffff; opacity: 1; }
+.service-slider__area .slick-prev:before, .service-slider__area .slick-next:before { display: none; }
+.service-slider__area .slick-arrow { border: 0; padding: 0; position: absolute; cursor: pointer; box-shadow: none; outline: 0; top: 40%; z-index: 1; width: 50px; height: 50px; line-height: 50px; border-radius: 50px; font-size: 20px; text-align: center; background-color: #f6f6f6; color: #000000; }
+.service-slider__area .slick-arrow:hover, .service-slider__area .slick-arrow:focus { background-color: #efc94c; color: #ffffff; box-shadow: none; outline: 0; border: 0; }
+.service-slider__area .slick-arrow { top: 50%; }
+.service-slider__area .slick-next { right: 0%; }
+.service-slider__area .slick-prev { left: 0%; }
+.service-slider__area .slick-disabled { display: none !important; }
+
+/*# sourceMappingURL=service_slider.css.map */
